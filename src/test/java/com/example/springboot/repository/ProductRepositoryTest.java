@@ -3,7 +3,6 @@ package com.example.springboot.repository;
 import com.example.springboot.entity.Product;
 import com.example.springboot.util.StringUtil;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,8 +14,6 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = {SpringBootApplication.class})
 class ProductRepositoryTest {
     @Autowired
     ProductRepository productRepository;
